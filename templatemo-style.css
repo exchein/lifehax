@@ -33,10 +33,10 @@ a:focus {
 	padding-bottom: 40px;
 }
 
-.tm-main-nav { display: none; }
+.tm-main-nav { display: block; }
 
 .tm-main-nav-ul {
-	display: inline-block;
+	display: block;
 	padding-left: 0;
 }
 
@@ -72,6 +72,7 @@ p { line-height: 2; }
 .tm-nav-item:focus a,
 .tm-nav-item-link.active {
 	color: #f4ef5e;
+	display: block;
 }
 
 .tm-about-img-container { margin-top: 50px; }
@@ -150,8 +151,9 @@ textarea:-ms-input-placeholder {
 
 @media (min-width: 992px) {
 	.tm-main-nav {
-		display: flex;
+		display: block;
 		justify-content: center;
+		text-align: center;
 	}
 
 	.tm-left-column { 
